@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import hello
+from .views import handleRequest
 
 urlpatterns = [
-    path('', hello, name='hello'),
+    path('', handleRequest, name='dynamicRoot'),
+    path('<str:routeParameter>/', handleRequest, name='dynamicGet'),
 ]
