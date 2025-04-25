@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myenv/
+venv/
+.env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode settings (se usar VSCode)
+.vscode/
+
+# IDEs
+.idea/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# pipenv
+Pipfile.lock
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# pytest
+.pytest_cache/
+
+# Migrations (opcional, às vezes prefira versionar, mas no início pode ignorar)
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
