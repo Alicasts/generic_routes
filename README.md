@@ -1,4 +1,5 @@
 📚 Projeto Django - Generic Routes
+https://trello.com/b/3YaFjXsC/django-generic-http-routes-generator
 
 Este projeto implementa uma engine de rotas dinâmicas utilizando Django + Django REST Framework + drf-spectacular para documentação via Swagger UI.
 
